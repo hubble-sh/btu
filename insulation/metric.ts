@@ -1,4 +1,12 @@
 /**
+ * @module
+ * This module contains utility functions for dealing with insulation using metric units.
+ * 
+ * Note that as a result, this is not suitable for the US building industry,
+ * which tends to use imperial units.
+ */
+
+/**
  * Convert a K value (with thickness in meters) into an R value.
  *
  * Warning: May be approximate due to errors in measuring.

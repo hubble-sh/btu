@@ -2,7 +2,6 @@
   "name": "@hubble/btu",
   "version": "0.1.0",
   "exports": {
-    ".": "./index.ts",
     "./insulation/metric": "./insulation/metric.ts"
   },
   "tasks": {
