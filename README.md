@@ -20,5 +20,8 @@ npx jsr add @hubble/btu
 ```ts
 import * as metric from '@hubble/btu/insulation/metric'
 
-metric.convertKToR({ K: 0. })
+const r = metric.convertKToR({ k: 0.041, m: 0.09 })
+console.log(`R${r.toFixed(1)} == R2.2`)
+
+// "R2.2 == R2.2"
 ```
