@@ -2,8 +2,8 @@
   "name": "@hubble/btu",
   "version": "0.1.0",
   "exports": {
-    ".": "./index.js",
-    "./insulation/metric": "./insulation/metric.js"
+    ".": "./index.ts",
+    "./insulation/metric": "./insulation/metric.ts"
   },
   "tasks": {
     "dev": "deno run --watch main.ts"

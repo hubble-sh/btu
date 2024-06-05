@@ -1,5 +1,5 @@
 import { assertAlmostEquals } from '@std/assert'
-import { convertKToR } from './metric.ts'
+import { convertKToR } from 'btu/insulation/metric.ts'
 
 /**
  * These test cases come from materials used in popular energy rating software in Australia.
